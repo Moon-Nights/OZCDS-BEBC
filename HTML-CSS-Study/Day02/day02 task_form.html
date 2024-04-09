@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MCU 최애 히어로 설문조사</title>
+</head>
+<body>
+  <header>
+    <h1>가장 좋아하는 MCU 히어로는?</h1>
+    <p>모든 항목에 빠짐없이 체크해주십시오.</p>
+  </header>
+  <hr>
+  <main>
+    <form>
+      <filedset>
+        <legend>개인정보</legend>
+        <label for="name">이름</label>
+        <input type="text"
+        name="name"
+        id="name" placeholder="본명을 입력하세요">
+        <br>
+        <label for="email">이메일</label>
+        <input type="email"
+        name="email"
+        id="email" placeholder="메일 주소를 입력하세요">
+      </filedset>
+      <fieldset>
+        <legend>설문</legend>
+        <p>연령대가 어떻게 되십니까?</p>
+        <input type="radio" id="teen" name="age">
+        <label for="teen">10대</label>
+        <input type="radio" id="twenty" name="age">
+        <label for="twenty">20대</label>
+        <input type="radio" id="thirty" name="age">
+        <label for="thirty">30대</label>
+        <input type="radio" id="fourty" name="age">
+        <label for="fourty">40대</label>
+        <input type="radio" id="other" name="age">
+        <label for="other">그 외</label>
+
+        <p>MCU 시리즈의 최애 히어로는 누구입니까?</p>
+        <input type="checkbox" id="Caption America" name="hero">
+        <label for="position">캡틴 아메리카</label>
+        <input type="checkbox" id="Iron Man" name="hero">
+        <label for="position">아이언맨</label>
+        <input type="checkbox" id="Thor" name="hero">
+        <label for="position">토르</label>
+        <input type="checkbox" id="Spider Man" name="hero">
+        <label for="position">스파이더맨</label>
+        <input type="checkbox" id="Dr.Strange" name="hero">
+        <label for="position">닥터스트레인지</label>
+        <input type="checkbox" id="Hulk" name="hero">
+        <label for="position">헐크</label>
+        <input type="checkbox" id="Black Widow" name="hero">
+        <label for="position">블랙위도우</label>
+        <input type="checkbox" id="other" name="other hero">
+        <label for="position">기타</label>
+        <legend>기타 히어로 선택시 입력</legend>
+        <textarea rows="1" cols="20"></textarea>
+      </fieldset>
+      <input type="submit">
+    </form>
+  </main>
+  <hr>
+  <footer>
+    <p>설문에 응답해주셔서 감사합니다.</p>
+  </footer>
+</body>
+</html>

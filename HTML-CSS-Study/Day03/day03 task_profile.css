@@ -1,0 +1,28 @@
+*{
+  text-align: center;
+  font-family: "Single Day", monospace;
+}
+
+html{
+  background-color: #14de72;
+  font-size: 16px;
+}
+
+body{
+  width: 550px; 
+  margin: auto; /* 너비에서 남는 여백을 동일하게 분배 */
+}
+
+ h1{
+    font-size: 36px;
+ }
+
+ img{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+ }
+
+ p{
+    font-size: 1.8rem;
+ }

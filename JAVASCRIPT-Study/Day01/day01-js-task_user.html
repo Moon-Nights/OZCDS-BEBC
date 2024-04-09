@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day01-과제-사용자 정보 입력받고 출력하기</title>
+    <style>
+      #name{
+        color: blue;
+      }
+      #animal{
+        color: green;
+      }
+      #fruit{
+        color: red;
+      }
+    </style>
+</head>
+<body>
+  <h1 id="name"></h1>
+  <p id="animal"></p>
+  <p id="fruit"></p>
+
+  <script>
+    const nameElement = document.querySelector("#name")
+    let name = prompt("당신의 이름은?")
+    nameElement.textContent = `내 이름은 ${name}이다!`
+
+    document.querySelector("#animal")
+    .textContent = `좋아하는 동물은 ${prompt("좋아하는 동물은?")}입니다!`
+
+    document.querySelector("#fruit")
+    .textContent = `좋아하는 과일은 ${prompt("좋아하는 과일은?")}입니다!`
+  </script>
+</body>
+</html>
