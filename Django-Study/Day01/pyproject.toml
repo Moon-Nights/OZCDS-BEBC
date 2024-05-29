@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "django-studys"
+version = "0.1.0"
+description = "python django studys"
+authors = ["Moon-Nights <noblest-till0x@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
